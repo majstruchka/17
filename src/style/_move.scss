@@ -1,0 +1,110 @@
+.box{
+  position: absolute;
+  right: 76%;
+  top: 100px;
+  margin: auto;
+}
+.box-1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background:rebeccapurple;
+  animation-name: rotate ;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+.box-2{
+  position: absolute;
+  top: 12.5px;
+  left: 12.5px;
+  width: 75px;
+  height: 75px;
+  background: darkmagenta;
+  animation-name: rotating ;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+  
+.box-3{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 50px;
+  height: 50px;
+  background: violet;
+  animation-name: move ;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg)
+  }
+  25% {
+    background-color: rgb(206, 46, 18);
+  }
+  50% {
+    background-color: rgb(228, 138, 138);
+  }
+  65% {
+    background-color: rgb(197, 96, 244);
+  }
+  76%{
+    background-color: rgb(187, 0, 224);
+  }
+  100% {
+    transform: rotate(360deg);
+   }
+}
+
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg)
+  }
+  25% {
+    background-color: blueviolet;
+  }
+  50% {
+   background-color: crimson;
+  }
+  65% {
+    background-color: firebrick;
+  }
+  76%{
+  background-color: darkmagenta;
+  }
+  100% {
+    transform: rotate(360deg);
+   }
+}
+@keyframes move {
+  0% {
+    transform: rotate(0deg)
+  }
+  25% {
+   background-color: fuchsia;
+  }
+  50% {
+    background-color: hotpink;
+  }
+  65% {
+   background-color: rgb(206, 46, 18);
+  }
+  76%{
+  background-color: maroon;
+  }
+  100% {
+    transform: rotate(360deg);
+   }
+}
+
