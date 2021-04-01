@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,OAAQ;EACJ,MAAM,EAAE,eAAe;EACvB,OAAO,EAAE,YAAY;EACrB,KAAK,EAAE,UAAU;EACjB,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,GAAG;EAClB,gBAAgB,EAAE,cAAc;;;AAGpC,OAAO;EACH,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,UAAU;EACvB,eAAe,EAAE,MAAM;;AAEvB,aAAO;EACH,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,IAAI;;;AAInB,UAAW;EACP,UAAU,EAAE,mBAAmB;EAC/B,gBAAgB,EAAE,aAAa;;;AAKnC,4BAA6B;EACzB,SAAS,EAAE,QAAQ",
+"sources": ["../src/style/_bouncing.scss"],
 "names": [],
 "file": "main.css"
 }

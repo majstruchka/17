@@ -1,0 +1,30 @@
+.button {
+    border: 3px solid black;
+    display: inline-block;
+    color: aquamarine;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+}
+
+.bounce{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+    &__text{
+        font-size: 50px;
+        color: aqua;
+    }
+}
+
+.transform {
+    transition: transform 1s linear;
+    transform-origin: center center; 
+    
+}
+
+
+#button:checked ~ .transform {
+    transform: scale(0);
+}
