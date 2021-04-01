@@ -1,0 +1,74 @@
+
+.main {
+    margin: auto;
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+.text {
+    position: absolute;
+    text-align:center;
+    width:200px;
+    top:50%;
+    font-size:40px;;
+}
+
+.topleft {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    background: red;
+    transform-origin: top left; 
+    transition: transform 1s linear;
+}
+
+.topright {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 100px;
+    background: yellow;
+    transform-origin: top right; 
+    transition: transform 1s linear;
+}
+
+.bottomleft {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 100px;
+    background: blue;
+    transform-origin: bottom left ; 
+    transition: transform 1s linear;
+
+}
+
+.bottomright {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    top: 100px;
+    background: green;
+    transform-origin:  right bottom;
+    transition: transform 1s linear;
+}
+
+.main:hover .topleft {
+    transform: rotate(90deg);
+}
+.main:hover .topright {
+    transform: rotate(-90deg);
+}
+.main:hover .bottomleft {
+    transform: rotate(-90deg);
+
+}
+
+.main:hover .bottomright {
+    transform: rotate(90deg);
+}
